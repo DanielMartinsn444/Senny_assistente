@@ -1,37 +1,35 @@
-# .gitignore (Este arquivo DEVE estar em assistente_pessoal/)
+# .gitignore 
 
-# Ignorar o ambiente virtual
+
 venv/
 .venv/
 
-# Ignorar arquivos de banco de dados SQLite
-*.sqlite3
-db.sqlite3 # Se seu db.sqlite3 estiver diretamente em assistente_pessoal/
 
-# Ignorar arquivos de cache e compilados do Python e Django
+*.sqlite3
+db.sqlite3 
+
+
 __pycache__/
 *.pyc
 *.orig
 *.swp
 
-# Ignorar arquivos de mídia (uploads de usuários)
+
 media/
 
-# Ignorar pastas de arquivos estáticos coletados pelo collectstatic
+
 staticfiles/
 
-# Ignorar arquivos de logs
+
 *.log
 logs/
 
-# Ignorar arquivos de configuração sensíveis
+
 .env
 
-# Ignorar arquivos específicos de sistemas operacionais e IDEs
+
 .DS_Store
 Thumbs.db
 .vscode/
 
-# Adicional para garantir que subdiretórios específicos também sejam ignorados
-# Ex: se você tiver um __pycache__ dentro de assistente_Senny/assistente_Senny/
-# ou assistente_Senny/core_senny/,
+
